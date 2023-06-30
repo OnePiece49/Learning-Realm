@@ -11,4 +11,5 @@ import UIKit
 class People: Object {
     @Persisted var name: String
     @Persisted var listAge: List<Int> = List<Int>()
+    @Persisted var address: String?
 }

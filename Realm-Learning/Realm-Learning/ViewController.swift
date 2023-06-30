@@ -7,13 +7,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    //MARK: - Properties
+    
+    //MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        configureUI()
     }
-
-
+    
+    
+    
+    //MARK: - Helpers
+    func configureUI() {
+        let people = People()
+        people.name = "Siuuuuuu"
+    }
+    
+    //MARK: - Selectors
+    
 }
-
+//MARK: - delegate
